@@ -1,0 +1,161 @@
+body{
+	padding:0;
+	margin:0;
+	font-family:arial,serif;
+}
+.navbar-default .navbar-brand{
+	color:white;
+}
+.navbar-default{
+	background-color:black;
+}
+.navbar-brand span{
+	font-style: italic;
+	color:red;
+	font-weight:bold;
+	border-radius:50%;
+	border:1px solid white;
+	padding:10px 10px;
+}
+span{
+	color:black;
+}
+.navbar{
+	border-radius: 0;
+	margin-bottom:0;
+}
+.navbar-brand{
+	font-style: italic;
+}
+.navbar-brand:focus{
+	text-decoration:none;
+}
+.navbar-nav li{
+	border:1px solid white;
+	text-align:center;
+}
+.navbar-default .navbar-nav > li > a{
+	color:white;
+	font-weight:bold;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color:dodgerblue;
+	text-decoration: underline;
+	font-weight:bold;
+}
+.navbar-nav{
+	margin:0;
+}
+.navbar-collapse{
+	padding:0;
+}
+.jumbotron-fluid{
+	background:linear-gradient(rgba(300,0,0,0.7),rgba(300,0,0,0.7)),url("../images/Andela-devs.jpg");
+	background-attachment: fixed;
+	background-size:cover;
+	padding:200px 0 200px 0;
+	position:relative;
+}
+.jumbotron h1, p{
+	color:white;
+}
+.jumbotron p{
+	border: 2px solid white;
+	width:60%;
+	margin:0 auto;
+	padding:10px 0 10px 0;
+}
+.service p{
+	font-size:1.3em;
+	color:black;
+}
+.service{
+	text-align:center;
+	border-radius: 0.3em;
+	margin:15px 0 0 0;
+	background-color:white;
+	color:black;
+	padding: 3em 2em 1em 2em;
+	border:1px solid lightgrey;
+}
+.service .glyphicon{
+	font-size:5em;
+}
+
+.section-title{
+	background-color: lightgrey;
+	padding:10px 0 10px 0;
+}
+.main-paragraph, .content{
+	color:black;
+}
+.footer{
+	background-color:black;
+	display:flex;
+	justify-content: space-around;
+	margin-top:10px;
+	border-top:5px solid red;
+}
+.footer-nav li{
+	list-style: none;
+	color:white;
+}
+.footer-nav li a{
+	color:white;
+}
+.footer-nav li a:hover{
+	color:dodgerblue;
+}
+.copyright{
+	background-color:black;
+	text-align:center;
+	padding:5px 0 5px 0;
+	margin:0;
+	color:lightgrey;
+	border-top:2px solid white;
+}
+.hours, .links, .address{
+	font-size:1.5em;
+}
+.hours-class, .links-class, .address-class{
+	padding-top: 35px;
+}
+.links-class a{
+	color:lightgrey;
+}
+.links-class a:hover{
+	color:dodgerblue;
+	font-weight:bold;
+}
+.footer p{
+	color:lightgrey;
+}
+@media (min-width:992px){
+	.col-md-3{
+		text-align:center;
+	}
+}
+@media (min-width:768px){
+	.navbar-nav{
+		float:right;
+	}
+	.navbar-nav li{
+		border:0;
+	}
+	.col-sm-6{
+		text-align:center;
+	}
+}
+@media (max-width:767px){
+	.col-xs-12{
+		width:100%;
+		text-align:center;
+	}
+	.footer{
+		display:block;
+	}
+	.hours-class, .links-class, .address-class{
+		border-bottom:2px solid white;
+		padding:0 0 0 15px;
+	}
+}
